@@ -1,0 +1,101 @@
+                                                           WORKSHEET - 1
+                                                            STATISTICS
+
+1. Bernoulli random variables take (only) the values 1 and 0. 
+a) True b) False
+Answer: a) True
+
+2. Which of the following theorem states that the distribution of averages of iid variables, properly normalized, becomes that of a standard normal as the sample size increases? 
+a) Central Limit Theorem b) Central Mean Theorem c) Centroid Limit Theorem d) All of the mentioned
+Answer: a) Central Limit Theorem
+
+3. Which of the following is incorrect with respect to use of Poisson distribution?
+a) Modeling event/time data                    b) Modeling bounded count data
+c) Modeling contingency tables                 d) All of the mentioned
+Answer: b) Modeling bounded count data
+
+4. Point out the correct statement. 
+a) The exponent of a normally distributed random variables follows what is called the log- normal distribution
+b) Sums of normally distributed random variables are again normally distributed even if the variables are dependent 
+c) The square of a standard normal random variable follows what is called chi-squared distribution 
+d) All of the mentioned
+Answer: d) All of the mentioned
+
+5. ______ random variables are used to model rates. 
+a) Empirical       b) Binomial        c) Poisson       d) All of the mentioned
+Answer: c) Poisson
+
+6. Usually replacing the standard error by its estimated value does change the CLT. 
+a) True         b) False
+Answer: b) False
+
+7.Which of the following testing is concerned with making decisions using data? 
+a) Probability     b) Hypothesis        c) Causal       d) None of the mentioned
+Answer: b) Hypothesis
+
+8. Normalized data are centered at______and have units equal to standard deviations of the original data. 
+a) 0               b) 5                 c) 1            d) 10
+Answer: a) 0
+
+9.Which of the following statement is incorrect with respect to outliers? 
+a) Outliers can have varying degrees of influence 
+b) Outliers can be the result of spurious or real processes 
+c) Outliers cannot conform to the regression relationship 
+d) None of the mentioned
+Answer: c) Outliers cannot conform to the regression relationship 
+
+10. What do you understand by the term Normal Distribution?
+Answer: The Normal distribution is a probability function that describes how the values of a variable are distributed. In this distribution, data is symmetrically distributed with no skew. When plotted on a graph, the data follows a bell, with most values clustering around a central region and truly fizzling out as they are going further far away from the middle. The shape of a normal distribution is determined by the mean and the standard deviation. The steeper the bell curve, the smaller the standard deviation. This distribution is also known as Gaussian distribution.
+
+11. How do you handle missing data? What imputation techniques do you recommend?
+Answer: 
+Presence of Missing data will lead to 
+==> Reduction in statistical power, which refers to the probability that the test will reject the null hypothesis when it is false.
+==> Cause bias in the estimation of parameters
+==> Reduction of the representativeness of the samples
+
+Handling the missing data:
+Missing data can be deleted or imputed with other values. But, deleting the data may lose the valuable information. So, we use these methods depending on the dataset.
+Missing data can be deleted in the following ways:
+==> Listwise/pairwise deletion: In this method, an observation with a missing value in any variable would be removed entirely.
+==> Dropping variables: If data is missing for more than 60% of the observations, it may be wise to delete it if the variable is insignificant.
+Missing data can be imputed in the following ways:
+==> Mean/median/mode: In this method, the missing data is imputed with Mean/median/mode. Mode is best used for categorical columns.
+==> Linear Regression: Linear regression can be used to impute missing values by using the existing variables to make a prediction about the missing value.
+==> K Nearest Neighbors (KNN): KNN imputes missing values by finding the k most similar observations and taking the mean/median/mode of those neighbors. This method requires determining the appropriate number of neighbors to consider, as well as how ‘distance’ should best be measured.
+
+12. What is A/B testing?
+Answer: A/B testing is an analytical method for making decisions that estimates population parameters based on sample statistics. It is also known as statistical hypothesis testing or statistical inference. Statistical hypothesis testing is divided into two. They are: -
+Null hypothesis (H0): The null hypothesis states that a population parameter (such as the mean, the standard deviation, and so on) is equal to a hypothesized value. The null hypothesis is often an initial claim that is based on previous analyses or specialized knowledge.
+Alternative Hypothesis (H1): The alternative hypothesis states that a population parameter is smaller, greater, or different than the hypothesized value in the null hypothesis. The alternative hypothesis is what you might believe to be true or hope to prove true.
+In hypothesis testing there are three possible outcomes of the test:
+==> No error: There is no error.
+==> Type I error:
+==> Type II error
+Both the errors happen at the same time
+==> Type I error happens only when the null hypothesis is true
+==> Type II error happens only when hypothesis is false
+
+13. Is mean imputation of missing data acceptable practice?
+Answer: Imputation of mean is popular to deal the missing data. But, there are many drawbacks of it.
+==> It may not help to find relationships with strong parameter estimates.
+==> Any statistic that uses the imputed data will have a standard error that’s too low.
+
+14. What is linear regression in statistics? 
+Answer: Linear regression is commonly used type of predictive analysis. It is a way to explain the relationship between a dependent variable(target) and one or more explanatory variables(predictors) using a straight line.
+A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
+Three major uses for regression analysis are 
+==> Determining the strength of predictors, 
+==> Forecasting an effect, and
+==> Trend forecasting.
+There are two types of Linear Regression. They are: -
+==> Simple Linear Regression
+==> Multiple Linear Regression
+
+15. What are the various branches of statistics?
+Answer: There are two main branches of statistics. They are: -
+==> Descriptive Statistics: 
+Descriptive Statistics deals with the presentation and collection of data. It is used to summarize the given data.
+==> Inferential Statistics:
+Inferential Statistics involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics.
+
