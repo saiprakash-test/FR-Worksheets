@@ -1,0 +1,152 @@
+                                                                   WORKSHEET - 1
+                                                                 MACHINE LEARNING
+
+1. What is the most appropriate no. of clusters for the data points represented by the following 
+dendrogram:
+
+a) 2
+b) 4
+c) 6
+d) 8
+
+Answer: b)4
+
+2. In which of the following cases will K-Means clustering fail to give good results?
+1. Data points with outliers
+2. Data points with different densities
+3. Data points with round shapes
+4. Data points with non-convex shapes 
+ Options:
+a) 1 and 2
+b) 2 and 3
+c) 2 and 4
+d) 1, 2 and 4
+
+Answer: d) 1, 2 and 4
+
+3. The most important part of is selecting the variables on which clustering is based.
+a) interpreting and profiling clusters
+b) selecting a clustering procedure
+c) assessing the validity of clustering
+d) formulating the clustering problem
+
+Answer: d) formulating the clustering problem
+
+4. The most commonly used measure of similarity is the or its square.
+a) Euclidean distance
+b) city-block distance
+c) Chebyshev’s distance
+d) Manhattan distance
+
+Answer: a) Euclidean distance
+
+5.____is a clustering procedure where all objects start out in one giant cluster. Clusters are formed by 
+dividing this cluster into smaller and smaller clusters.
+a) Non-hierarchical clustering
+b) Divisive clustering
+c) Agglomerative clustering
+d) K-means clustering
+
+Answer: b) Divisive clustering
+
+6. Which of the following is required by K-means clustering?
+a) Defined distance metric
+b) Number of clusters
+c) Initial guess as to cluster centroids
+d) All answers are correct
+
+Answer: d) All answers are correct
+
+7. The goal of clustering is to
+a) Divide the data points into groups
+b) Classify the data point into different classes
+c) Predict the output values of input data points
+d) All of the above
+
+Answer: d) All of the above
+
+8. Clustering is a
+a) Supervised learning
+b) Unsupervised learning
+c) Reinforcement learning
+d) None
+
+Answer: b) Unsupervised learning
+
+9. Which of the following clustering algorithms suffers from the problem of convergence at local 
+optima?
+a) K- Means clustering
+b) Hierarchical clustering
+c) Diverse clustering
+d) All of the above
+ 
+Answer: a) K- Means clustering
+
+10. Which version of the clustering algorithm is most sensitive to outliers?
+a) K-means clustering algorithm
+b) K-modes clustering algorithm
+c) K-medians clustering algorithm
+d) None
+
+Answer: a) K-means clustering algorithm
+
+11. Which of the following is a bad characteristic of a dataset for clustering analysis
+a) Data points with outliers
+b) Data points with different densities
+c) Data points with non-convex shapes
+d) All of the above
+
+Answer: d) All of the above
+
+
+12. For clustering, we do not require
+a) Labeled data
+b) Unlabeled data
+c) Numerical data
+d) Categorical data
+
+Answer: a) Labeled data
+
+13. How is cluster analysis calculated?
+
+Answer: Different methods are employed for the calculation of cluster analysis.Some of them are 
+
+==> K-means cluster is a method to quickly cluster large data sets.  The researcher define the number of clusters in advance.  This is useful to test different models with a different assumed number of clusters
+==> Hierarchical cluster is the most common method.  It generates a series of models with cluster solutions from 1 to n.Hierarchical cluster also works with variables as opposed to cases; it can cluster variables together in a manner somewhat similar to factor analysis.  
+==> Two-step cluster analysis identifies groupings by running pre-clustering first and then by running hierarchical methods.  Because it uses a quick cluster algorithm upfront, it can handle large data sets that would take a long time to compute with hierarchical cluster methods.
+All the above methods can be seen in SPSS.
+
+14. How is cluster quality measured?
+
+Answer: Ideal clustering characterize by minimal intra cluster distance and maximal inter cluster distance. There are two types of measures to find the quality of cluster. They are :-
+a) Extrinsic measure: It requires ground truth labels. 
+Examples are 
+==> Adjusted Rand Index:- The Rand index computes how similar the clusters (returned by the clustering algorithm) are to the benchmark classifications.
+==> Homogeneity: each cluster contains only members of a single class.
+==> Completeness: all members of a given class are assigned to the same cluster.
+==> The Fowlkes–Mallows index:- The Fowlkes–Mallows index computes the similarity between the clusters returned by the clustering algorithm and the benchmark classifications. The higher the value of the Fowlkes–Mallows index the more similar the clusters and the benchmark classifications are.
+==> The mutual information is an information theoretic measure of how much information is shared between a clustering and a ground-truth classification that can detect a non-linear similarity between two clusterings.
+
+b) Intrinsic measure: It doesnot require ground truth labels.
+Examples are 
+==> Silhouette coefficient: It contrasts the average distance to elements in the same cluster with the average distance to elements in other clusters. 
+==> Davies–Bouldin index: Algorithms that produce clusters with low intra-cluster distances (high intra-cluster similarity) and high inter-cluster distances (low inter-cluster similarity) will have a low Davies–Bouldin index, the clustering algorithm that produces a collection of clusters with the smallest Davies–Bouldin index is considered the best algorithm based on this criterion.
+==>Calinski-Harabasz Index: If the ground truth labels are not known, the Calinski-Harabasz index (sklearn.metrics.calinski_harabasz_score)  also known as the Variance Ratio Criterion - can be used to evaluate the model, where a higher Calinski-Harabasz score relates to a model with better defined clusters.
+
+15. What is cluster analysis and its types?
+
+Answer:
+Cluster Analysis :- Clustering is a type of unsupervised learning method of machine learning. In the unsupervised learning method, the inferences are drawn from the data sets which do not contain labelled output variable. It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
+==> Clustering is a task of dividing the data sets intrluo a certain number of clusters in such a manner that the data points belonging to a       cluster have similar characteristics.
+==> Greater the similarity within a group and greater difference between the groups, more distinct the clustering.
+==> Cluster analysis provides a potential relationship and construct systematic structure in large number of varables and observations.
+
+Types of Cluster Analysis:
+
+1. Hierarchical clustering: It is also known as 'nesting clustering' as it also clusters to exist within bigger clusters to form a tree.
+2. Partition clustering: Its simply a division of the set of data objects into non-overlapping clusters such that each objects is in exactly one subset.
+3. Exclusive Clustering: They assign each value to a single cluster.
+4. Overlapping Clustering: It is used to reflect the fact that an object can simultaneously belong to more than one group.
+5. Fuzzy clustering: Every objects belongs to every cluster with a membership weight that goes between 0:if it absolutely doesn't belong to cluster and 1:if it absolutely belongs to the cluster.
+6. Complete clustering: It perform a hierarchical clustering using a set of dissimilarities on 'n' objects that are being clustered. They tend to find compact clusters of an approaximately equal diameter.
+
