@@ -1,0 +1,86 @@
+                                                            WORKSHEET-3
+                                                            STATISTICS 
+1. Which of the following is the correct formula for total variation?
+a) Total Variation = Residual Variation – Regression Variation
+b) Total Variation = Residual Variation + Regression Variation
+c) Total Variation = Residual Variation * Regression Variation
+d) All of the mentioned
+Answer: b) Total Variation = Residual Variation + Regression Variation
+
+2. Collection of exchangeable binary outcomes for the same covariate data are called outcomes.
+a) random
+b) direct
+c) binomial
+d) none of the mentioned
+Answer: c) binomial
+
+3. How many outcomes are possible with Bernoulli trial?
+a) 2
+b) 3
+c) 4
+d) None of the mentioned
+Answer: a) 2
+
+4. If Ho is true and we reject it is called
+a) Type-I error
+b) Type-II error
+c) Standard error
+d) Sampling error
+Answer: a) Type-I error
+
+5. Level of significance is also called:
+a) Power of the test
+b) Size of the test
+c) Level of confidence
+d) Confidence coefficient
+Answer: b) Size of the test
+
+6. The chance of rejecting a true hypothesis decreases when sample size is:
+a) Decrease
+b) Increase
+c) Both of them
+d) None
+Answer: a) Decrease
+
+7. Which of the following testing is concerned with making decisions using data?
+a) Probability
+b) Hypothesis
+c) Causal
+d) None of the mentioned
+Answer: b) Hypothesis
+
+8. What is the purpose of multiple testing in statistical inference?
+a) Minimize errors
+b) Minimize false positives
+c) Minimize false negatives
+d) All of the mentioned
+Answer: d) All of the mentioned
+
+9. Normalized data are centred at and have units equal to standard deviations of the original data
+a) 0
+b) 5
+c) 1
+d) 10
+Answer: a) 0
+
+10. What Is Bayes' Theorem?
+Answer: Bayes' Theorem is a mathematical formula used to determine the conditional probability of events.It describes the probability of an event, based on prior knowledge of conditions that might be related to the event. Formula for Bayes' Theorem is given by
+
+P(A/B)=[P(B/A).P(A)]/P(B)
+
+11. What is z-score?
+Answer: A z-score is a numerical measurement used in statistics of a value's relationship to the mean of a group of values,measured in terms of standard deviations from the mean.
+z-score may be positive(indicating the score is above the mean) or negative(indicating the score is below the mean).
+z-score can also be zero (indicating the data point's score is identical to the mean).
+
+12. What is t-test?
+Answer: A t-test is a statistical test that is used to compare the means of two groups. It is used in hypothesis testing, with a null hypothesis that the difference in group means is zero and an alternate hypothesis that the difference in group means is different from zero.
+
+13. What is percentile?
+Answer: Percentile is a score below which a given percentage of scores in its frequency distribution falls or a score at or below which a given percentage falls.
+
+14. What is ANOVA?
+Answer: Analysis of variance (ANOVA) is a statistical technique that is used to check if the means of two or more groups are significantly different from each other.ANOVA is based on the law of total variance, where the observed variance in a particular variable is partitioned into components attributable to different sources of variation.
+
+15. How can ANOVA help?
+Answer:ANOVA helps to figure out whether to reject the null hypothesis or accept the alternate hypothesis. Basically, it tests groups to see if there's a difference between them.
