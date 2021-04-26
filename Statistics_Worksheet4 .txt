@@ -1,0 +1,81 @@
+                                                                  WORKSHEET-4
+                                                                   STATISTICS 
+
+1. What is central limit theorem and why is it important?
+Answer: The central limit theorem states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacement , then the distribution of the sample means will be approximately normally distributed.
+The Central Limit Theorem is important for statistics because it allows us to safely assume that the sampling distribution of the mean will be normal in most cases.
+
+2. What is sampling? How many sampling methods do you know?
+Answer: Sampling is a technique of selecting a subset of the population to make statistical inferences from them and estimate characteristics of the whole population. Sampling methods are sub divided into two groups:
+a) Probability Sampling Methods
+    ==> Simple random sampling
+    ==> Systematic sampling
+    ==> Stratified sampling
+    ==> Clustered sampling
+b) Non-Probability Sampling Methods
+    ==> Convenience sampling
+    ==> Quota sampling
+    ==> Judgement (or Purposive) Sampling
+    ==> Snowball sampling
+
+3. What is the difference between type1 and typeII error?
+Answer: Type 1 error, in statistical hypothesis testing, is the error caused by rejecting a null hypothesis when it is true whereas Type II error is the error that occurs when the null hypothesis is accepted when it is not true.
+
+4. What do you understand by the term Normal distribution?
+Answer: The normal distribution is a probability function that describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values showing that data near the mean are more frequent in occurrence than data far from the mean. It is also known as Gaussian distribution.
+
+5. What is correlation and covariance in statistics?
+Answer: Covariance indicates the direction of the linear relationship between variables. It lies between -infinity and +infinity.
+Correlation on the other hand measures both the strength and direction of the linear relationship between two variables. It lies between -1 and +1.
+
+6. Differentiate between univariate ,Biavariate,and multivariate analysis.
+Answer: Univariate Analysis: It is a form of data analysis where the data being analyzed contains only one variable.
+Bivariate Analysis: It specifies relationship between two different variables.
+Multivariate Analysis: It analyses the data by comparing more than two variables.
+
+7. What do you understand by sensitivity and how would you calculate it?
+Answer: 
+Sensitivity:It measures the proportion of positives that are correctly identified.It is also known as True Positive Rate/Recall. 
+Sensitivity is calculated by using the formula Sensitivity = True Positive/ (True Positive +False Negative).
+
+8. What is hypothesis testing? What is H0 and H1? What is H0 and H1 for two-tail test?
+Answer: 
+Hypothesis Testing: It is a systematic way to select samples from a population with the intent of making a determination about the expected behavior of the entire population.
+H0 is called the the null hypothesis,stated as the null, is a statement about a population parameter, such as the population mean, that is assumed to be true.
+H1 is a statistical proposition stating that there is a significant difference between a hypothesized value of a population parameter and its estimated value. 
+In a two-tailed test,
+Null Hypothesis: The effect equals zero.
+Alternative Hypothesis:  The effect does not equal zero.
+
+9. What is quantitative data and qualitative data?
+Answer: 
+Quantitative data is a set of numbers collected from a group of people and involves statistical analysis.
+Qualitative data is a set of information which can not be measured using numbers. It generally consist of words, subjective narratives. 
+
+10. How to calculate range and interquartile range?
+Answer: 
+Calculation of range: The Range is the difference between the lowest and highest values. Range = Highest value - Lowest value
+Calculation of interquartile range: The interquartile range is a measure of where the “middle fifty” is in a data set.
+IQR = Q3 - Q1
+where, Q1=median in the lower half of the data and 
+       Q3=median for the upper half of data
+       
+11. What do you understand by bell curve distribution ?
+Answer: The Normal distribution is also known as bell curve distribution.It is used to describe a graphical representation of a normal probability distribution, whose underlying standard deviations from the mean create the curved bell shape.
+
+12. Mention one method to find outliers.
+Answer: Z-score is one of the methods to detect outliers. In Z-score method, a standard cut-off value for finding outliers are Z-scores of +/-3 or further from zero.The formula of z-score is z = (x-μ)/σ.
+
+13. What is p-value in hypothesis testing?
+Answer: P-values are used in hypothesis testing to help decide whether to reject the null hypothesis. The smaller the p-value, the more likely you are to reject the null hypothesis.
+
+14. What is the Binomial Probability Formula?
+Answer: Binomial probability is the probability of exactly x successes on n repeated trials in an experiment which has two possible outcomes
+If the probability of success on an individual trial is p , then the binomial probability is  nCx⋅px⋅(1−p)n−x .
+
+15. Explain ANOVA and it’s applications.
+Answer: Analysis of variance (ANOVA) is a statistical technique that is used to check if the means of two or more groups are different from each other. ANOVA checks the impact of one or more factors by comparing the means of different samples.
+Applications :There are many industries that can use the ANOVA test to identify issues or variances between samples. 
+==> A healthcare industry could use the ANOVA test on rats or animals to test different medications and the effectiveness.
+==> A manufacturing plant would most likely use an ANOVA test to determine the best materials to use to build a product for a customer.
+==> Different levels of urea application in a crop, or different levels of antibiotic action on several different bacterial speciesor different levels of effect of some medicine on groups of patients. 
