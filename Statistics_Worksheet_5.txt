@@ -1,0 +1,71 @@
+                                                                WORKSHEET-5
+                                                                STATISTICS
+                                                                
+1. Using a goodness of fit,we can assess whether a set of obtained frequencies differ from a set of frequencies.
+a) Mean
+b) Actual
+c) Predicted
+d) Expected
+Answer: d) Expected 
+
+2. Chisquare is used to analyse
+a) Score
+b) Rank
+c) Frequencies
+d) All of these
+Answer: d) All of these
+
+3. What is the mean of a Chi Square distribution with 6 degrees of freedom?
+a) 4
+b) 12
+c) 6
+d) 8
+Answer: c) 6
+
+4. Which of these distributions is used for a goodness of fit testing?
+a) Normal distribution
+b) Chisqared distribution
+c) Gamma distribution
+d) Poission distribution
+Answer: d) Poission distribution
+
+5. Which of the following distributions is Continuous
+a) Binomial Distribution
+b) Hypergeometric Distribution
+c) F Distribution
+d) Poisson Distribution
+Answer: c) F Distribution
+
+6. A statement made about a population for testing purpose is called?
+a) Statistic
+b) Hypothesis
+c) Level of Significance
+d) TestStatistic
+Answer: b) Hypothesis
+
+7. If the assumed hypothesis is tested for rejection considering it to be true is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+Answer: a) Null Hypothesis
+
+8. If the Critical region is evenly distributed then the test is referred as?
+a) Two tailed
+b) One tailed
+c) Three tailed
+d) Zero tailed
+Answer: a) Two tailed
+
+9. Alternative Hypothesis is also called as?
+a) Composite hypothesis
+b) Research Hypothesis
+c) Simple Hypothesis
+d) Null Hypothesis
+Answer: b) Research Hypothesis
+
+10. In a Binomial Distribution, if ‘n’ is the number of trials and ‘p’ is the probability of success, then the mean value is
+given by
+a) np
+b) n
+Answer: a) np
