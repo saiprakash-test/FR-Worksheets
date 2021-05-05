@@ -1,0 +1,76 @@
+                                                                        WORKSHEET-5
+                                                                      MACHINE LEARNING
+                                                                      
+1. R-squared or Residual Sum of Squares (RSS) which one of these two is a better measure of goodness of fit model in regression and why?
+Answer: 
+R-Squared is a measure of fit which indicates the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model.
+Residual Sum of Squares (RSS): A residual sum of squares (RSS) is a statistical technique used to measure the amount of variance in a data set that is not explained by a regression model itself.
+
+Linear regression identifies the equation that produces the smallest difference between all of the observed values and their fitted values.Before assessing numeric measures of goodness-of-fit, like R-squared, you should evaluate the residual plots.Residual plots can expose a biased model far more effectively than the numeric output by displaying problematic patterns in the residuals.If our model is biased,we cannot trust the results. If our residual plots look good, we head to assess the R-squared and other statistics.
+
+2. What are TSS (Total Sum of Squares), ESS (Explained Sum of Squares) and RSS (Residual Sum of Squares) in regression. Also mention the equation relating these three metrics with each other.
+Answer: 
+==> TSS: TSS is also known as R2.The coefficient of determination, R2, is a statistical measure that shows the proportion of variation explained by the estimated regression line. Variation refers to the sum of the squared differences between the values of Y and the mean value of Y. It is expressed mathematically as ∑(xi−x¯)2.
+
+==> ESS: ESS tells how much of the variation between observed data and predicted data is being explained by the model proposed.
+ESS = total sum of squares – residual sum of squares
+
+==> RSS: A residual sum of squares (RSS) is a statistical technique used to measure the amount of variance in a data set that is not explained by a regression model itself.
+
+Relation:
+RSS=ESS/TSS
+TSS=ESS+RSS
+
+3. What is the need of regularization in machine learning?
+Answer: 
+Regularisation is a technique used to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting. Regularization is one of the important prerequisites for improving the reliability, speed, and accuracy of convergence, but it is not a solution to every problem.
+
+4. What is Gini–impurity index?
+Answer: Gini index or Gini impurity measures the degree or probability of a particular variable being wrongly classified when it is randomly chosen. But what is actually meant by ‘impurity’? If all the elements belong to a single class, then it can be called pure. The degree of Gini index varies between 0 and 1, where 0 denotes that all elements belong to a certain class or if there exists only one class, and 1 denotes that the elements are randomly distributed across various classes.
+
+5. Are unregularized decision-trees prone to overfitting? If yes, why?
+Answer: Yes, unregularized decision-trees prone to overfitting. In the case of decision trees they can learn a training set to a point of high granularity that makes them easily overfit. Allowing a decision tree to split to a granular degree, is the behavior of this model that makes it prone to learning every point extremely well to the point of perfect classification that is overfitting.By hyperparameter tuning,which gives the best fit parameters for the model so that model is not overfitted
+
+6. What is an ensemble technique in machine learning?
+Answer: Ensemble methods use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. We can use ensemble learning for both types of machine learning problems: Classification and Regression.
+
+7. What is the difference between Bagging and Boosting techniques?
+Answer:
+The main difference between Bagging and Boosting techniques is Bagging is a method of merging the same type of predictions. Boosting is a method of merging different types of predictions.
+Bagging decreases variance, not bias, and solves over-fitting issues in a model. Boosting decreases bias, not variance.
+In Bagging, each model receives an equal weight. In Boosting, models are weighed based on their performance.
+Models are built independently in Bagging. New models are affected by a previously built model’s performance in Boosting.
+
+8. What is out-of-bag error in random forests?
+Answer:The out-of-bag (OOB) error is the average error for each  calculated using predictions from the trees that do not contain  in their respective bootstrap sample. 
+
+9. What is K-fold cross-validation?
+Answer: Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample.The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation.
+
+10. What is hyper parameter tuning in machine learning and why it is done?
+Answer: Hyperparameter tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a parameter whose value is used to control the learning process. Hyperparameters are important in getting good performance with models. 
+
+11. What issues can occur if we have a large learning rate in Gradient Descent?
+Answer: Increase in learning rate results in learning the model faster. But, at extremes When the learning rate is too large, gradient descent can inadvertently increase rather than decrease the training error and even results in divergent oscillations. 
+
+12. Can we use Logistic Regression for classification of Non-Linear Data? If not, why?
+Answer: Yes, While logistic regression makes core assumptions about the observations such as IID (a collection of random variables is independent and identically distributed if each random variable has the same probability distribution as the others and all are mutually independent.), the use of a linear decision boundary is not one of them.In those cases where we suspect the decision boundary to be nonlinear, it may make sense to formulate logistic regression with a nonlinear model and evaluate how much better we can do.
+
+13. Differentiate between Adaboost and Gradient Boosting.
+Answer:
+==> Adaboost minimizes the exponential loss function that can make the algorithm sensitive to the outliers whereas Gradient Boosting, any differentiable loss function can be utilised.
+==> Gradient Boosting more flexible than AdaBoost.
+==> In Gradient Boosting existing weak learners can be identified by gradients and with AdaBoost, it can be identified by high-weight data points.
+
+14. What is bias-variance trade off in machine learning?
+Answer: The bias-variance tradeoff is a decomposition of the expected prediction error of a machine learning model into a bias term and a variance term. 
+Bias is the simplifying assumptions made by the model to make the target function easier to approximate.
+Variance is the amount that the estimate of the target function will change given different training data.
+Trade-off is tension between the error introduced by the bias and the variance.
+If our model is too simple and has very few parameters then it may have high bias and low variance.
+
+15. Give short description each of Linear, RBF, Polynomial kernels used in SVM.
+Answer: SVM algorithms use a set of mathematical functions that are defined as the kernel. The function of kernel is to take data as input and transform it into the required form.
+==> Linear: It is used when the data is Linearly separable.Generally,it is used when there are a Large number of Features in a particular Data Set.
+==> RBF: The Radial basis function kernel, also called the RBF kernel, or Gaussian kernel,is a kernel that is in the form of a radial basis function.It is used when there is no prior knowledge about the data.
+==> Polynomial kernel: It represents the similarity of vectors in training set of data in a feature space over polynomials of the original variables used in kernel.
