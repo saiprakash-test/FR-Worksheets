@@ -1,0 +1,50 @@
+                                                            WORKSHEET 5 
+                                                                SQL
+
+1. Write SQL query to show all the data in the Movie table.
+Answer: SELECT * from Movie;
+
+2. Write SQL query to show the title of the longest runtime movie.
+Answer: SELECT title, runtime FROM Movie WHERE runtime = (SELECT MAX(runtime) FROM Movie);
+
+3. Write SQL query to show the highest revenue generating movie title.
+Answer: SELECT title, revenue FROM Movie WHERE revenue = (SELECT MAX(revenue) FROM Movie);
+
+4. Write SQL query to show the movie title with maximum value of revenue/budget.
+Answer: SELECT title, budget FROM Movie WHERE budget = (SELECT MAX(runtime) FROM Movie);
+
+5. Write a SQL query to show the movie title and its cast details like name of the person, gender, character
+name, cast order.
+Answer: SELECT movie.title, movie_cast.movie_id, movie_cast.gender_id, movie_cast.person_id, movie_cast.character_name,movie_cast.cast_order FROM movie, movie_cast;
+
+6. Write a SQL query to show the country name where maximum number of movies has been produced, along
+with the number of movies produced.
+Answer: Select genre_id, genre_name from genre;
+
+7. Write a SQL query to show all the genre_id in one column and genre_name in second column.
+Answer: select  movie_genre.genre_id, genre.genre_name from movie_genre, genre;
+
+8. Write a SQL query to show name of all the languages in one column and number of movies in that
+particular column in another column.
+Answer: Select language_name from Language join Movie_Language on language_name.language_id=movie_id.language_id;
+
+9. Write a SQL query to show movie name in first column, no. of crew members in second column and number of cast members in third column.
+Answer: SELECT movie_title,movie_crew,movie_cast,count(movie_crew,movie_cast) FROM movie 
+NATURAL JOIN movie_crew
+NATURAL JOIN movie_cast;
+
+10. Write a SQL query to list top 10 movies title according to popularity column in decreasing order.
+Answer: SELECT title FROM Movie ORDER BY popularity DESC limit10;
+
+11. Write a SQL query to show the name of the 3rd most revenue generating movie and its revenue.
+Answer: select MAX (revenue) as revenue from movie < (select MAX (revenue) as revenue from movie < (select MAX (revenue) as revenue from movie))
+
+12. Write a SQL query to show the names of all the movies which have “rumoured” movie status.
+Answer: SELECT title  FROM Movie WHERE movie_status= “rumoured”;
+
+14. Write a SQL query to print the movie_id in one column and name of the production company in the second
+column for all the movies.
+Answer: Select movie_id from Movie_Componey join Production_Componey on movie_id.componey_id=componey_name.componey_id ;
+
+15. Write a SQL query to show the title of top 20 movies arranged in decreasing order of their budget.
+Answer: SELECT title FROM Movie ORDER BY budget DESC limit20;
