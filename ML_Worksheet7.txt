@@ -1,0 +1,93 @@
+                                                                WORKSHEET-7
+                                                             MACHINE LEARNING
+
+1. Which of the following in sk-learn library is used for hyper parameter tuning?
+A) GridSearchCV()                       B) RandomizedCV()
+C) K-fold Cross Validation              D) All of the above
+Answer: D) All of the above
+
+2. In which of the below ensemble techniques trees are trained in parallel?
+A) Random forest                        B) Adaboost
+C) Gradient Boosting                    D) All of the above
+Answer: A) Random forest
+
+3. In machine learning, if in the below line of code:
+ sklearn.svm.SVC (C=1.0, kernel='rbf', degree=3)
+we increasing the C hyper parameter, what will happen?
+A) The regularization will increase    B) The regularization will decrease
+C) No effect on regularization         D) kernel will be changed to linear 
+Answer: B) The regularization will decrease
+
+4. Check the below line of code and answer the following questions:
+sklearn.tree.DecisionTreeClassifier(*criterion='gini',splitter='best',max_depth=None,
+min_samples_split=2)
+Which of the following is true regarding max_depth hyper parameter?
+A) It regularizes the decision tree by limiting the maximum depth up to which a tree can be grown.
+B) It denotes the number of children a node can have.
+C) both A & B
+D) None of the above
+Answer: C) both A & B
+
+5. Which of the following is true regarding Random Forests?
+A) It's an ensemble of weak learners.
+B) The component trees are trained in series
+C) In case of classification problem, the prediction is made by taking mode of the class labels predicted by the component trees.
+D)None of the above
+Answer: A) It's an ensemble of weak learners.
+
+6. What can be the disadvantage if the learning rate is very high in gradient descent?
+A) Gradient Descent algorithm can diverge from the optimal solution.
+B) Gradient Descent algorithm can keep oscillating around the optimal solution and may not settle.
+C) Both of them
+D) None of them
+Answer: A) Gradient Descent algorithm can diverge from the optimal solution.
+
+7. As the model complexity increases, what will happen?
+A) Bias will increase, Variance decrease    B) Bias will decrease, Variance increase
+C)both bias and variance increase           D) Both bias and variance decrease.
+Answer: B) Bias will decrease, Variance increase
+
+8. Suppose I have a linear regression model which is performing as follows:
+ Train accuracy=0.95 and Test accuracy=0.75
+Which of the following is true regarding the model?
+A) model is underfitting          B) model is overfitting
+C) model is performing good       D) None of the above
+Answer: B) model is overfitting
+
+9. Suppose we have a dataset which have two classes A and B. The percentage of class A is 40% and percentage of class B is 60%. Calculate the Gini index and entropy of the dataset.
+Answer:
+Gini index = 1- (p(A)2 + p(B)2) = 1-((0.4)2+(0.6)2) = 0.48
+Entropy = -(p(A) log2(p(A)) + p(B) log2(p(B))) = -(0.4*log2(0.4) + 0.6*log2(0.6))) = 0.97
+
+10. What are the advantages of Random Forests over Decision Tree?
+Answer: Randomforestsare a strong modeling technique and much more robust than a single decisiontree. They aggregate many decisiontrees to limit overfitting as well as error due to bias and therefore yield useful results.
+
+11. What is the need of scaling all numerical features in a dataset? Name any two techniques used for scaling. 
+Answer: Scaling is a technique to standardize the independent features present in the data in a fixed range. If scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values.
+Techniques to perform Feature Scaling are:
+Min-Max Normalization: This technique re-scales a feature or observation value with distribution value between 0 and 1.
+Standardization: It is a very effective technique which re-scales a feature value so that it has distribution with 0 mean value and variance equals to 1.
+
+12. Write down some advantages which scaling provides in optimization using gradient descent algorithm.
+Answer: 
+We can use fixed learning rate during training without bothering about learning rate decay.
+It has straight trajectory towards the minimum and it is guaranteed to converge in theory to the global minimum if the loss function is convex and to a local minimum if the loss function is not convex.
+It has unbiased estimate of gradients. The more the examples, the lower the standard error.
+
+13. In case of a highly imbalanced dataset for a classification problem, is accuracy a good metric to measure the performance of the model. If not, why?
+Answer: No,When the class distribution is slightly skewed, accuracy can still be a useful metric. When the skew in the class distributions are severe, accuracy can become an unreliable measure of model performance.In case of imbalanced data-sets, accuracy is no longer a proper measure, since it does not distinguish between the numbers of correctly classified examples of different classes. Hence, it may lead to erroneous conclusions.
+Precision and recall can be combined into a single score that seeks to balance both concerns, called the F-score or the F-measure. The F-Measure is a popular metric for imbalanced classification.
+
+14. What is “f-score" metric? Write its mathematical formula.
+Answer: An f-score is a way to measure a model’s accuracy based on recall and precision.The higher the F-score, the more accurate a model is and vice_versa.
+F = (1+β2)[(precision.recall)/precision+recall]
+β < 1: Precision oriented evaluation
+β > 1: Recall oriented evaluation
+F1 score is a generalized case where β is 1 where precision and recall are balanced.
+Then, F1= 2[(precision.recall)/precision+recall]
+
+15. What is the difference between fit(), transform() and fit_transform()?
+Answer: 
+fit(): We use the required formula and perform the calculation on the feature values of input data and fit this calculation to the transformer. For applying the fit() method we have to use .fit() in front of the transformer object. It calculates the parameters/weights on training data.
+transform(): In this method,we change or transform the data where we have calculated in fit() to every data point.. The transform function applies the values of the parameters on the actual data and gives the normalized value. 
+fit_transform():This method performs fit and transform on the input data at a single time and converts the data points. If we use fit and transform separate when we need both then it will decrease the efficiency of the model so we use fit_transform() which will do both the work.
