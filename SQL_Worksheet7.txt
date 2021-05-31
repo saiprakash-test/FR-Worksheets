@@ -1,0 +1,115 @@
+                                                            WORKSHEET - 7
+                                                                SQL
+                                                                
+1. The primary key is selected from the
+A. Composite keys
+B. Candidate keys
+C. Foreign keys
+D. Determinants
+Answer: B. Candidate keys
+
+2. Which is/are correct statements about primary key of a table?
+A. Primary keys can contain NULL values.
+B. Primary keys cannot contain NULL values…
+C. A table can have only one primary key with single or multiple fields….
+D. A table can have multiple primary keys with single or multiple fields.
+Answer: B. Primary keys cannot contain NULL values…
+        C. A table can have only one primary key with single or multiple fields….
+
+3. Which SQL command is used to insert a row in a table?
+A. Select
+B. Create
+C. Insert
+D. Drop
+Answer: C. Insert
+
+4. Which one of the following sorts rows in SQL?
+A. SORTBY
+B. ALIGNBY
+C. ORDERBY
+D. GROUPBY
+Answer: C. ORDERBY
+
+5. The SQL statement that queries or reads data from a table is
+A. QUERY
+B. READ
+C. SELECT
+D. QUERY
+Answer: C. SELECT
+
+6. Which normal form is considered adequate for relational database design?
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF
+Answer: C. 3NF
+
+7. SQL can be used to
+A. Create database structures only
+B. Modify database data only
+C. All of the above can be done by SQL
+D. Query database data only
+Answer: C. All of the above can be done by SQL
+
+8. SQL query and modification commands make up
+A. DDL
+B. DML
+C. HTML
+D. XML
+Answer: B. DML
+
+9. The result of a SQL SELECT statement is a(n).
+A. File
+B. Table
+C. Report
+D. Form
+Answer: B. Table
+
+10. Second normal form should meet all the rules for
+A. 1 NF
+B. 2 NF
+C. 3 NF
+D. 4 NF
+Answer: A. 1 NF
+
+11. What are joins in SQL?
+Answer: A join is a SQL command which is used to combine rows from two or more tables based on a related column between those tables.
+
+12. What are the different types of joins in SQL?
+Answer: Types of SQL joins are:
+Inner Join: The INNER JOIN keyword selects all rows from both the tables as long as the condition satisfies. This keyword will create the result-set by combining all rows from both the tables where the condition satisfies i.e value of the common field will be same.The syntax is as follows:
+SELECT table1.column1,table1.column2,table2.column1,....
+FROM table1 
+INNER JOIN table2
+ON table1.matching_column = table2.matching_column;
+
+Left Join: This join returns all the rows of the table on the left side of the join and matching rows for the table on the right side of join.The rows for which there is no matching row on right side, the result-set will contain null.LEFT JOIN is also known as left outer join.The syntax is as follows:
+SELECT table1.column1,table1.column2,table2.column1,....
+FROM table1 
+LEFT JOIN table2
+ON table1.matching_column = table2.matching_column;
+
+Right Join: Right Join is similar to left Join. This join returns all the rows of the table on the right side of the join and matching rows for the table on the left side of join. The rows for which there is no matching row on left side, the result-set will contain null. Right Join is also known as Right Outer Join.The syntax is as follows:
+SELECT table1.column1,table1.column2,table2.column1,....
+FROM table1 
+RIGHT JOIN table2
+ON table1.matching_column = table2.matching_column;
+
+Full Join: Full Join creates the result-set by combining result of both Left Join and Right Join. The result-set will contain all the rows from both the tables. The rows for which there is no matching, the result-set will contain NULL values. The syntax is as follows:
+SELECT table1.column1,table1.column2,table2.column1,....
+FROM table1 
+FULL JOIN table2
+ON table1.matching_column = table2.matching_column;
+
+13. What is SQL Server?
+Answer: SQL Server is a relational database management system, or RDBMS, developed and marketed by Microsoft.Similar to other RDBMS software, SQL Server is built on top of SQL, a standard programming language for interacting with the relational databases. 
+
+14. What is primary key in SQL?
+Answer: Primary key is a single or combination of the field, which is used to identify each record in a table uniquely.It can also be termed as a field in a table which uniquely identifies each row/record in a database table. Primary keys must contain unique values. A primary key column cannot have NULL values.
+
+15. What is ETL in SQL?
+Answer: ETL is a process in Data Warehousing and it stands for Extract, Transform and Load. It is a process in which an ETL tool extracts the data from various data source systems, transforms it in the staging area and then finally, loads it into the Data Warehouse system.
+
+Extraction: It is the first step of ETL in SQL.In this extraction process, data is extracted from different sources and stored into the staging area.
+Transformation:In this step,a set of rules or functions are applied on the extracted data to convert it into a single standard format. Transformation includes Filtering,Cleaning,Joining,Splitting and Sorting.
+Loading: In this step, the transformed data is finally loaded into the data warehouse. 
