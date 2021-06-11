@@ -1,0 +1,105 @@
+                                                            WORKSHEET-8
+                                                            STATISTICS
+
+1. In hypothesis testing, type II error is represented by β and the power of the test is 1−β then β is:
+a. The probability of rejecting H0 when H1 is true
+b. The probability of failing to reject H0 when H1 is true
+c. The probability of failing to reject H1 when H0 is true
+d. The probability of rejecting H0 when H1 is true
+Answer: b. The probability of failing to reject H0 when H1 is true
+
+2. In hypothesis testing, the hypothesis which is tentatively assumed to be true is called the
+a. correct hypothesis
+b. null hypothesis 
+c. alternative hypothesis
+d. level of significance
+Answer: b. null hypothesis
+
+3. When the null hypothesis has been true, but the sample information has resulted in the rejection of the null, a _________ has been made
+a. level of significance
+b. Type II error
+c. critical value
+d. Type I error
+Answer: d. Type I error
+
+4.For finding the p-value when the population standard deviation is unknown, if it is reasonable to assume that the population is normal, we use
+a. the z distribution
+b. the t distribution with n - 1 degrees of freedom
+c. the t distribution with n + 1 degrees of freedom
+d. none of the above
+Answer: b. the t distribution with n - 1 degrees of freedom
+
+5. A Type II error is the error of
+a. accepting Ho when it is false
+b. accepting Ho when it is true
+c. rejecting Ho when it is false
+d. rejecting Ho when it is true
+Answer: c. rejecting Ho when it is false
+
+6. A hypothesis test in which rejection of the null hypothesis occurs for values of the point estimator in either tail of the sampling distribution is called
+a. the null hypothesis
+b. the alternative hypothesis
+c. a one-tailed test
+d. a two-tailed test
+Answer: d. a two-tailed test
+
+7. In hypothesis testing, the level of significance is
+a. the probability of committing a Type II error
+b. the probability of committing a Type I error
+c. the probability of either a Type I or Type II, depending on the hypothesis to be tested
+d. none of the above
+Answer: b. the probability of committing a Type I error
+
+8. In hypothesis testing, b is
+a. the probability of committing a Type II error
+b. the probability of committing a Type I error
+c. the probability of either a Type I or Type II, depending on the hypothesis to be test
+d. none of the above
+Answer: a. the probability of committing a Type II error
+
+9. When testing the following hypotheses at an α level of significance
+H0: p = 0.7
+H1: p > 0.7
+The null hypothesis will be rejected if the test statistic Z is
+a. z > zα
+b. z < zα
+c. z < -z
+d. none of the above
+Answer: b. z < zα
+
+10. Which of the following does not need to be known in order to compute the P-value?
+a. knowledge of whether the test is one-tailed or two-tail
+b. the value of the test statistic
+c. the level of significance
+d. All of the above are needed
+Answer: c. the level of significance
+
+11. The maximum probability of a Type I error that the decision maker will tolerate is called the
+a. level of significance
+b. critical value
+c. decision value
+d. probability value
+Answer: a. level of significance
+
+12. For t distribution, increasing the sample size, the effect will be on
+a. Degrees of Freedom
+b. The t-ratio
+c. Standard Error of the Means
+d. All of the Above
+Answer: d. All of the Above
+
+13. What is Anova in SPSS?
+Answer: Analysis of variance (ANOVA) is a statistical method that is used to check if the means of two or more groups are significantly different from each other.
+ANOVA in SPSS must have a dependent variable which should be metric. ANOVA in SPSS must also have one or more independent variables, which should be categorical in nature.ANOVA in SPSS, categorical independent variables are called factors. A particular combination of factor levels, or categories, is called a treatment.In ANOVA in SPSS, there is one way ANOVA which involves only one categorical variable, or a single factor. If two or more factors are involved in ANOVA in SPSS, then it is termed as n way ANOVA. 
+
+14. What are the assumptions of Anova?
+Answer: Assumptions of Anova:
+Each group sample is drawn from a normally distributed population
+All populations have a common variance
+All samples are drawn independently of each other
+Within each sample, the observations are sampled randomly and independently of each other
+Factor effects are additive.
+
+15. What is the difference between one way Anova and two way Anova?
+Answer: The key difference between one-way and two-way ANOVA is the number of independent variables. A one-way ANOVA has one independent variable, while a two-way ANOVA has two.
+The observations in a one-way ANOVA need not to be same in each group but in case of two-way ANOVA it should be equal.
