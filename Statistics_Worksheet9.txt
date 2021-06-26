@@ -1,0 +1,96 @@
+                                                                    WORKSHEET-9
+                                                                    STATISTICS 
+
+1. The owner of a travel agency would like to determine whether or not the mean age of the agency's customers is over 24. If so, he plans to alter the destination of their special cruises and tours. If he concludes the mean age is over 24 when it is not, he makes a _______ error. If he concludes the mean age is not over 24 when it is, he makes a _______error. 
+a. Type II; Type II 
+b. Type I; Type I 
+c. Type I; Type II 
+d. Type II; Type I 
+Answer: c. Type I; Type II
+
+2. Suppose we wish to test H0: µ =53 vs H1: µ > 53. What will result if we conclude that the mean is greater than 53 when its true value is really 55? 
+a. We have made a Type I error 
+b. We have made a correct decision 
+c. We have made a Type II error 
+d. None of the above are correct 
+Answer: b. We have made a correct decision
+
+3. The value that separates a rejection region from an acceptance region is called a ___________. 
+a. parameter 
+b. critical value 
+c. confidence coefficient 
+d. significance level 
+Answer: b. critical value 
+
+4. A hypothesis test is used to prevent a machine from under filling or overfilling quart bottles of beer. On the basis of sample, the machine is shut down for inspection. A thorough examination reveals there is nothing wrong with the filling machine. From a statistical point of view: 
+a. Both Type I and Type II errors were made. 
+b. A Type I error was made. 
+c. A Type II error was made. 
+d. A correct decision was made. 
+Answer: b. A Type I error was made. 
+
+5. Suppose we wish to test H0 : µ =21 vs H1 : µ > 21. Which of the following possible sample results gives the most evidence to support H1 (i.e., reject H0)? Hint: Compute Z-score.
+a. x = 23 ,s = 3 
+b. x = 19 ,s = 4 
+c. x = 17 ,s = 7 
+d. x = 18 ,s = 6 
+Answer: c. x = 17,s = 7 
+
+6. Given H0: µ = 25, H1: µ ≠ 25, and P-value = 0.041. Do you reject or fail to reject H0 at the 0.01 level of significance? 
+a. fail to reject H0 
+b. not sufficient information to decide 
+c. reject H0
+Answer: a. fail to reject H0 
+
+7. A bottling company needs to produce bottles that will hold 12 ounces of liquid. Periodically, the company gets complaints that their bottles are not holding enough liquid. To test this claim, the bottling company randomly samples 36 bottles. Suppose the p-value of this test turned out to be 0.0455. State the proper conclusion. 
+a. At α = 0.085, fail to reject the null hypothesis. 
+b. At α = 0.035, accept the null hypothesis. 
+c. At α = 0.05, reject the null hypothesis. 
+d. At α = 0.025, reject the null hypothesis. 
+Answer: c. At α = 0.05, reject the null hypothesis.
+
+8. If a hypothesis test were conducted using α = 0.05, for which of the following p-values would the null hypothesis be rejected? 
+a. 0.100 
+b. 0.041 
+c. 0.055 
+d. 0.060 
+Answer: b. 0.041 
+
+9 . For H1: µ > µ0 p-value is 0.042. What will be the p-value for Ha: µ < µo? 
+a. 0.084 
+b. 0.021 
+c. 0.958 
+d. 0.042 
+Answer: c. 0.958 
+
+10. The test statistic is t = 2.63 and the p-value is 0.9849. What type of test is this? 
+a. Right tail 
+b. Two tail 
+c. Left tail 
+d. Can't tell 
+Answer: c. Left tail 
+
+11. The test statistic is z =2.75, the critical value is z = 2.326. The p- value is …
+a. Less than the significance level 
+b. Equal to the significance level 
+c. Large than the significance level 
+Answer: a. Less than the significance level 
+
+12. The area to the left of the test statistic is 0.375. What is the probability value if this is a left tail test? 
+a. 0.750 
+b. 0.375 
+c. 0.1885 
+d. 0.625
+Answer: b. 0.375
+
+13.What is T distribution and Z distribution?
+Answer:The T distribution is a hypothetical probability distribution. It is also known as the student’s t-distribution. It is used to make presumptions about a mean when the standard deviation is not known to us. It is symmetrical, bell-shaped distribution, similar to the standard normal curve. 
+
+The Z-distribution is a normal distribution with mean zero and standard deviation 1. Values on the Z-distribution are called z-values, z-scores, or standard scores. A z-value represents the number of standard deviations that a particular value lies above or below the mean.
+
+14.Is the T distribution normal?
+Answer:The t-distribution is similar to a normal distribution but it has heavier tails, which means it tends to produce values that fall far from its mean.
+
+15.What does the T distribution tell us?
+Answer: The t distribution is a probability distribution that is used to estimate population parameters when the sample size is small and/or when the population variance is unknown.
+The t-distribution is used as an alternative to the normal distribution when sample sizes are small in order to estimate confidence or determine critical values that an observation is a given distance from the mean.
